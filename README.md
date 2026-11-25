@@ -12,6 +12,12 @@ KiCad 3rd party location (TODO: create and publish as a proper extension package
 - Windows: $env:USERPROFILE\Documents\KiCad\10.0\3rdparty (or redirected to
 $env:USERPROFILE\OneDrive\Documents\KiCad\10.0\3rdparty)
 
+e.g.:
+```bash
+cd $HOME/Documents/KiCad/10.0/
+git clone https://github.com/bifrost-labs/KiCad-libs.git 3rdparty/
+```
+
 ## References
 
 - <https://dev-docs.kicad.org/en/addons/index.html>
