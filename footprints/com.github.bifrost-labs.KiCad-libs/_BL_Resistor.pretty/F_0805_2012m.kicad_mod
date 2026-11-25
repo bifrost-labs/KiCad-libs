@@ -1,0 +1,192 @@
+(footprint "F_0805_2012m"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "PRG21BB150MB1RK")
+	(tags "Thermistor")
+	(property "Reference" "REF**"
+		(at -0.1 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "5de1ddc6-330a-4a7e-a94f-48f7cfd8856a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "0805-2012m"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f0d094d6-4644-45c8-b340-685342ed4222")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da6b2886-43c4-44db-8b75-3348ef41fd93")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40300f96-5f41-4fb5-8ae1-7cb63a9225a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.525 -0.7)
+		(end 0.525 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a57a9df-b5e3-4ba5-b895-f15032ca3a18")
+	)
+	(fp_line
+		(start -0.525 0.7)
+		(end 0.525 0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c313ca5f-90eb-4e12-b8b5-7dc5c1e90f27")
+	)
+	(fp_line
+		(start -1.725 -1)
+		(end 1.725 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c78dada-d13b-4782-b6ee-cd80f2f5839d")
+	)
+	(fp_line
+		(start -1.725 1)
+		(end -1.725 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9bff6c65-4e74-43cc-8955-880126eb34ae")
+	)
+	(fp_line
+		(start 1.725 -1)
+		(end 1.725 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2bafecb9-75d7-45c1-817c-57e0bb3a3501")
+	)
+	(fp_line
+		(start 1.725 1)
+		(end -1.725 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b4a8350-7e4b-4882-abcb-5028783d305a")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c966f9d-b809-4cf0-94d3-c4d31122fbd5")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8003f055-8970-40da-b7cf-0d04eaeda2f3")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b8ebd5f-6664-4e0e-82b1-980d8ea34b84")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56ce9803-4059-4e44-b384-0ab69f5f91ea")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.3 0)
+		(layer "F.Fab")
+		(uuid "272a164b-9d71-4d4c-9c46-537a9cc04c0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.95 0)
+		(size 0.7 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.07142857143)
+		(uuid "6d520741-e407-48ae-bbb0-d6a34cd721a7")
+	)
+	(pad "2" smd roundrect
+		(at 0.95 0)
+		(size 0.7 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.07142857143)
+		(uuid "182101fc-a6c2-4f38-9a2b-e684ccf25431")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com.github.bifrost-labs.KiCad-libs/F_murata_0805.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

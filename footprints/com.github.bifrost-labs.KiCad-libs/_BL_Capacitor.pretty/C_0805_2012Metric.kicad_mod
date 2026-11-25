@@ -1,0 +1,186 @@
+(footprint "C_0805_2012Metric"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Cap SMD 0805/2012metric")
+	(tags "bifrost-labs capacitor")
+	(property "Reference" "REF**"
+		(at 0 -1.68 0)
+		(layer "F.Fab")
+		(uuid "2e01ff5a-6a2e-4e90-82db-6f5f862aec8c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "C_0805_2012Metric"
+		(at 0 1.68 0)
+		(layer "F.Fab")
+		(uuid "1c83b03d-7ae2-460d-b7dd-11eaf9992a56")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6c68ee8-f132-4d35-aa4f-3d4ae9bb9457")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6afd43d5-437c-4e1d-a8ca-dd6101724c50")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.261252 -0.735)
+		(end 0.261252 -0.735)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38d315a4-4459-42e1-91af-62c8c23b7aa2")
+	)
+	(fp_line
+		(start -0.261252 0.735)
+		(end 0.261252 0.735)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a287d800-f5df-4730-b6d8-90bc3b270be5")
+	)
+	(fp_line
+		(start -1.7 -0.98)
+		(end 1.7 -0.98)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b6c11fba-416e-4a2f-9327-cc667da42dda")
+	)
+	(fp_line
+		(start -1.7 0.98)
+		(end -1.7 -0.98)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "79c24285-60fd-49eb-85cc-8c6db65e318e")
+	)
+	(fp_line
+		(start 1.7 -0.98)
+		(end 1.7 0.98)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98ec8385-3393-407e-8a30-68558bb79c4b")
+	)
+	(fp_line
+		(start 1.7 0.98)
+		(end -1.7 0.98)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ad2cfa23-e22d-4515-8811-8153f446ba02")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0459193c-3bfa-4ced-ad35-7e2c35c7482d")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "009c7b59-7dc9-4ac4-9bfa-4852e9e825a4")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b2ee8de-e93b-466a-9ac5-c3d24e5623a9")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa22c581-90ae-4821-ac3b-0d47fa991558")
+	)
+	(pad "1" smd roundrect
+		(at -0.95 0)
+		(size 1 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "fb29e446-6332-4911-a295-023c1605a5bc")
+	)
+	(pad "2" smd roundrect
+		(at 0.95 0)
+		(size 1 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1a669e4c-d5e6-4561-98b1-fde54d9192bd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com.github.bifrost-labs.KiCad-libs/C_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

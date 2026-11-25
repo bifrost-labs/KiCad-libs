@@ -1,0 +1,35 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v2",
+    "name": "bifrost-labs common symbols and footprints",
+    "description": "A theme that makes KiCad truly beautiful",
+    "description_full": "",
+    "identifier": "com.github.bifrost-labs.KiCad-libs",
+    "type": "library",
+    "author": {
+        "name": "Bifrost Labs",
+        "contact": {
+            "web": "https://github.com/bifrost-labs/KiCad-libs"
+        }
+    },
+    "maintainer": {
+        "name": "Bifrost Labs",
+        "contact": {
+            "web": "https://github.com/bifrost-labs/KiCad-libs"
+        }
+    },
+    "license": "CC0-1.0",
+    "resources": {
+        "homepage": "https://github.com/bifrost-labs/KiCad-libs"
+    },
+    "versions": [
+        {
+            "version": "1.0",
+            "status": "stable",
+            "kicad_version": "5.99",
+            "download_sha256": "YOUR_SHA256_HERE",
+            "download_size": 1234,
+            "download_url": "https://github.com/bifrost-labs/KiCad-libs/archive/refs/heads/symbols.zip",
+            "install_size": 5678
+        }
+    ]
+}
