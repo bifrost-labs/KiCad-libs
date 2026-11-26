@@ -21,3 +21,7 @@ git clone https://github.com/bifrost-labs/KiCad-libs.git 3rdparty/
 ## References
 
 - <https://dev-docs.kicad.org/en/addons/index.html>
+
+## License
+
+[CC0-1.0![License: CC0-1.0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
